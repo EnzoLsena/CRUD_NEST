@@ -71,3 +71,17 @@ Os usuários de teste são:
 Admin: CPF 123.456.789-00
 Personal: CPF 987.654.321-00
 Aluno: CPF 111.222.333-44
+*******************************************************************************
+nd Setup
+
+api/index.php
+api/config/Database.php
+api/models/Usuario.php
+api/models/Admin.php
+api/models/Personal.php
+api/models/Aluno.php
+api/controllers/AuthController.php
+api/controllers/WorkoutController.php
+api/database.sql
+src/services/api.ts
+package.json
