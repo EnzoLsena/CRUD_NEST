@@ -12,14 +12,6 @@ export class Employee {
   email: string;
 
   @Column()
-  cargo: string;
+  profissao: string;
 
-  @Column()
-  departamento: string;
-
-  @Column()
-  dataContratacao: Date;
-
-  @Column('decimal', { precision: 10, scale: 2 })
-  salario: number;
 }
